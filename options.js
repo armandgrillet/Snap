@@ -3,7 +3,7 @@ window.onload = function() {
         if (snap.delay) {
             setDelaySelect(snap.delay);
         } else {
-            chrome.storage.local.set({ "delay" : 5000 }, setDelaySelect(5000));
+            chrome.storage.local.set({ "delay" : 2000 }, setDelaySelect(2000));
         }
     });
 

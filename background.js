@@ -17,7 +17,7 @@ function downloadRemoval(delay) {
 }
 
 function setDelayAndRemove() {
-    chrome.storage.local.set({ "delay" : 5000 }, function() {
-        downloadRemoval(5000);
+    chrome.storage.local.set({ "delay" : 2000 }, function() {
+        downloadRemoval(2000);
     });
 }
