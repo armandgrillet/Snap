@@ -1,0 +1,16 @@
+{
+    "name": "Snap - Clear your downloads automatically",
+    "short_name": "Snap",
+    "version": "1.0",
+    "manifest_version": 2,
+    "author": "Armand Grillet",
+
+    "description": "Remove downloads after a specified amount of time.",
+    "background": { "scripts": ["background.js"]},
+    "options_page": "options.html",
+    "permissions": [
+        "browsingData",
+        "downloads",
+        "storage"
+    ]
+}
